@@ -1,19 +1,21 @@
 %hook CAMCaptureCapabilities 
--(long long) zoomDialStyle {
+-(double) _frontVideoModeMaximumZoomFactor {
 		return 1;
 }
--(bool)overContentFlipButtonSupported {
-		return YES;
+-(double) _frontPhotoModeMaximumZoomFactor {
+		return 1;
+}
+-(double) _frontDualVideoModeMaximumZoomFactor {
+		return 1;
+}
+-(double) _frontDualPhotoModeMaximumZoomFactor {
+		return 1;
+}
+-(double) _frontTripleCameraVideoModeMaximumZoomFactor {
+		return 1;
+}
+-(double) _frontTripleCameraPhotoModeMaximumZoomFactor {
+		return 1;
 }
 %end
-%hook CAMViewfinderViewController 
--(BOOL)_shouldUseZoomControlInsteadOfSlider {
-    return YES;
-}
-%end
-%hook CAMBottomBar
--(double) _opacityForBackgroundStyle:(long long)arg1 {
-		return 0;
-		return 0;
-}
-%end
+
