@@ -1,0 +1,11 @@
+Package: com.michaelmelita1.widebydefault
+Name: WidebyDefault
+Depends: mobilesubstrate, cy+model.iphone (= 12.3) | cy+model.iphone (= 12.5)
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Default to the Wide selfie camera on 11Pro
+Maintainer: Michael Melita
+Author: LaVie and Michael Melita
+Section: Tweaks
+Depiction: https://michaelmelita1.github.io/depictions/?p=com.michaelmelita1.widebydefault
+Sileodepiction: https://michaelmelita1.github.io/sileodepictions/com.michaelmelita1.widebydefault/info.json
